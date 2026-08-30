@@ -15,7 +15,7 @@ This project explores valuation and growth trends among the world's unicorn star
 - **Data cleaning** — text-to-number conversion, date parsing, text extraction formulas (`SUBSTITUTE`, `FIND`, `LEFT`, `TRIM`)
 - **Dashboard design** — linked slicers for cross-filtering, consistent color system, freeze panes
   
-![dashboard-preview](Dashboard Image.png)
+![dashboard-preview](Dashboard_Image.png)
 
 
 **Key Insights**
