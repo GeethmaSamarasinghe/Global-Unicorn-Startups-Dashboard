@@ -1,39 +1,76 @@
-# Global Unicorn Startups Dashboard
+#Global-Unicorn-Startups-Dashboard
 
-An interactive Excel dashboard analyzing 1,000+ global unicorn companies — exploring where startup value is concentrated by industry, region, and time.
+An interactive Excel dashboard analyzing **1,000+ global unicorn companies** exploring startup valuation, industry trends, regional distribution, growth over time, and investor activity.
 
-**Project Overview**
-This project explores valuation and growth trends among the world's unicorn startups (private companies valued at $1B+). The goal was to answer questions a business stakeholder might actually ask:
+This project explores the global unicorn startup landscape — private companies valued at **$1 billion or more**.
 
-- Which industries and countries hold the most unicorn value?
-- How has the pace of new unicorns changed year over year?
-- How long does it typically take a company to reach unicorn status?
-- Who are the most active lead investors in this space?
+The dashboard was designed to answer business-focused questions such as:
 
-**Tools & Techniques**
-- **Excel** — PivotTables, PivotCharts, Slicers, calculated columns, KPI cards
-- **Data cleaning** — text-to-number conversion, date parsing, text extraction formulas (`SUBSTITUTE`, `FIND`, `LEFT`, `TRIM`)
-- **Dashboard design** — linked slicers for cross-filtering, consistent color system, freeze panes
-  
-![dashboard-preview](Dashboard_Image.png)
+- Which industries have the highest total unicorn valuation?
+- Which continents have the largest number of unicorn companies?
+- How has the number of new unicorns changed over time?
+- How long does it typically take a startup to reach unicorn status?
+- Which investors appear most frequently among unicorn companies?
 
+The dashboard contains data on **1,074 unicorn companies** and a combined valuation of approximately **$3.71 trillion**.
+
+**Dashboard Features**
+
+- **KPI Cards** — Total Unicorns, Total Valuation, Average Years to Unicorn, and Top Industry by Valuation
+- **Industry Valuation** — Compare total valuation across different industries
+- **Regional Analysis** — Compare unicorn counts across continents
+- **Growth by Year** — Analyze how the number of new unicorns has changed over time
+- **Top Investors** — Identify investors associated with the highest number of unicorn companies
+- **Interactive Slicers** — Filter the dashboard by continent, year joined, and industry
 
 **Key Insights**
 
-- Fintech leads all industries by total valuation at ~$882B, followed by Internet software & services at about $595B
-- North America dominates by unicorn count, followed by Asia and Europe
-- The number of new unicorns spiked sharply around 2021, reflecting the major expansion in startup funding during that period, before declining substantially in 2022
-- The average time from founding to reaching unicorn status is 7 years
-- Sequoia Capital China appears as the most frequent lead investor among unicorn companies in this dataset
+- **Fintech leads industry valuation** at approximately **$882B**, followed by Internet Software & Services at approximately **$595B**.
+- **North America has the highest number of unicorn companies**, with approximately **588 companies**, followed by Asia and Europe.
+- The number of new unicorns **increased sharply in 2021**, reaching the highest point in the dataset, before declining substantially in 2022.
+- Unicorn companies take an **average of 7 years** to reach unicorn status.
+- **Sequoia Capital China** appears as the most frequent lead investor based on the number of unicorn companies associated with each investor.
 
+**Tools & Techniques**
+
+- Microsoft Excel
+- PivotTables
+- PivotCharts
+- Slicers
+- Calculated fields
+- Excel formulas
+- Data cleaning and transformation
+- Dashboard design
+- Interactive data visualization
+
+![Dashboard Screenshot](Dashboard_Image.png)
 
 **Data Source**
-Dataset: [Unicorn Companies](https://mavenanalytics.io/data-playground) — Maven Analytics Data Playground (free for practice/portfolio use).
+
+Dataset: [Unicorn Companies](https://mavenanalytics.io/data-playground) — Maven Analytics Data Playground.
+
+The dataset contains information about global private companies that have reached unicorn status, including their valuation, industry, country/region, founding year, year joined, and investors.
 
 **How to Use**
+
 1. Download `Unicorn_Startups_Dashboard.xlsx`
 2. Open in Excel (2016 or later recommended for full Slicer support)
 3. Use the Industry / Continent / Year slicers on the Dashboard sheet to filter all charts at once
 
 
-*Built as a portfolio project for educational purposes.*
+**What I Learned**
+
+Through this project, I practiced:
+
+- Cleaning and preparing startup data for analysis
+- Working with **Excel PivotTables and PivotCharts**
+- Creating interactive dashboards using **Slicers**
+- Building KPI cards to communicate important business metrics
+- Transforming raw data into meaningful business insights
+- Designing a dashboard with consistent visual hierarchy and layout
+- Interpreting trends and patterns from business data
+- Validating dashboard results to ensure the insights make sense
+
+
+
+This project was created as a portfolio project to develop practical data analysis and business intelligence skills for learning purposes.
