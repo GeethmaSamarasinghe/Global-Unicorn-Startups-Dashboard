@@ -1,4 +1,4 @@
-#Global-Unicorn-Startups-Dashboard
+# Global-Unicorn-Startups-Dashboard
 
 An interactive Excel dashboard analyzing **1,000+ global unicorn companies** exploring startup valuation, industry trends, regional distribution, growth over time, and investor activity.
 
@@ -71,6 +71,6 @@ Through this project, I practiced:
 - Interpreting trends and patterns from business data
 - Validating dashboard results to ensure the insights make sense
 
-
+**License**
 
 This project was created as a portfolio project to develop practical data analysis and business intelligence skills for learning purposes.
