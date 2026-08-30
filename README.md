@@ -4,7 +4,7 @@ An interactive Excel dashboard analyzing 1,000+ global unicorn companies — exp
 
 ![dashboard-preview](Dashboard Image.png)
 
-**Project Overview
+## 📌 Project Overview
 This project explores valuation and growth trends among the world's unicorn startups (private companies valued at $1B+). The goal was to answer questions a business stakeholder might actually ask:
 
 - Which industries and countries hold the most unicorn value?
@@ -12,7 +12,7 @@ This project explores valuation and growth trends among the world's unicorn star
 - How long does it typically take a company to reach unicorn status?
 - Who are the most active lead investors in this space?
 
-**Tools & Techniques
+## 🛠 Tools & Techniques
 - **Excel** — PivotTables, PivotCharts, Slicers, calculated columns, KPI cards
 - **Data cleaning** — text-to-number conversion, date parsing, text extraction formulas (`SUBSTITUTE`, `FIND`, `LEFT`, `TRIM`)
 - **Dashboard design** — linked slicers for cross-filtering, consistent color system, freeze panes
